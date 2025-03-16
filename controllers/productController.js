@@ -95,6 +95,7 @@ async function updateProduct(req, res, id) {
 module.exports = {
     getProducts,
     getProduct,
-    createProduct
+    createProduct,
+    updateProduct
 }
 
