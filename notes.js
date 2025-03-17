@@ -28,9 +28,20 @@
 // requests. To show a generic response here, you can send an html page by using a status 
 // code. You can do this by setting res.statusCode to whatever you want but 200 means that 
 // everything is okay (successful).  
-// The 201 status code means that something was created successfully. 
+
+// Status Codes:
+
+// The 200 status code indicates that the request was successful. It is commonly used for 
+// successful GET requests where the server returns the requested data.
+
+// The 201 status code means that something was created successfully. It is commonly used for 
+// successful POST requests where the server creates a new resource and returns a confirmation 
+// that the resource has been created.
+
 // The 300 range is for redirects.
+
 // The 400 range is for client errors like 400 is a bad request and 404 is not found.
+
 // The 500 range is for server errors like 500 is an internal server error.
 
 // PART 6 (LINE 6) - Left off notes at 6:05
